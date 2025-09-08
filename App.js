@@ -1,8 +1,8 @@
 import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import WeatherComponent from '../Weather/src/components/WeatherComponent';
-import InfoComponent from '../Weather/src/components/InfoComponent';
+import WeatherComponent from './src/components/WeatherComponent';
+import InfoComponent from './src/components/InfoComponent';
 
 const Stack = createNativeStackNavigator();
 
