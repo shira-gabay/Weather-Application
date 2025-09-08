@@ -4,11 +4,11 @@
     "slug": "Weather",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/44.jpg",
+    "icon": "./assets/44.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/44.jpg",
+      "image": "./assets/44.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -17,12 +17,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/44.jpg",
+        "foregroundImage": "./assets/44.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.shiragabay.Weather"
     },
     "web": {
-      "favicon": "./assets/44.jpg"
+      "favicon": "./assets/44.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "de7ea61e-0449-4cf4-b385-878eb799de82"
+      }
     }
   }
 }
