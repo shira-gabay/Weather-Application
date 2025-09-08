@@ -46,7 +46,7 @@ const WeatherComponent = ({ navigation }) => {
         setError(null);
 
         try {
-            const response = await axios.get(`http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=a0e3c9e359e1ace35eae6d698aa1cd44&units=metric`);
+            const response = await axios.get(`http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=845141ee85b3e9ed231fafa92eab8b77&units=metric`);
             setWeather(response.data);
             setModalVisible(true); // הצגת מודל לאחר קבלת נתוני מזג האוויר
         } catch (err) {
